@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Transport Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>College Transport Information Portal</h1>
+
+<input type="text" id="search" placeholder="Search Bus">
+
+<button onclick="searchBus()">Search</button>
+
+<div id="result">
+    <p>Bus 1 - Erode - 7:30 AM</p>
+    <p>Bus 2 - Bhavani - 7:45 AM</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
