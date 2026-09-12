@@ -1,0 +1,19 @@
+function searchBus() {
+
+let input =
+document.getElementById("search").value.toLowerCase();
+
+let result =
+document.getElementById("result");
+
+if(input=="erode"){
+    result.innerHTML="Bus 1 - Erode - 7:30 AM";
+}
+else if(input=="bhavani"){
+    result.innerHTML="Bus 2 - Bhavani - 7:45 AM";
+}
+else{
+    result.innerHTML="No Bus Found";
+}
+
+}
